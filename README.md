@@ -1,5 +1,3 @@
-# Audio-Transcription-chatbot
-
 # Audio Transcription Chatbot
 
 This project focuses on developing an advanced audio transcription and summarization system using Python and various audio processing libraries. The main goal is to automate the process of transcribing audio files into text and then summarizing the key points from the transcriptions. The project involves several key components:
