@@ -1,21 +1,22 @@
-# Audio AI 
+# 🗣️ Whisper Speech-to-Text Pipeline
 
+A speech-to-text (STT) pipeline built using OpenAI's Whisper model. This project transcribes audio files into accurate and readable text, enabling easier access to spoken content.
 
-## Project Overview
-This project creates an interactive tool that lets you chat with audio transcripts, asking for summaries or other tasks, all through an easy to use interface.
+## 📄 Project Overview
 
+This project uses the Whisper model to convert speech recordings into clean text transcripts. It is designed to support fast and accurate transcription for Arabic and English audio and can be integrated into larger retrieval or chatbot systems.
 
-## Audio Handling and Processing:
+## 🔧 Technologies Used
 
-The system uses pydub to load, process, and split audio files into smaller chunks if they exceed 10 minutes.
+- Python  
+- OpenAI Whisper  
+- `whisperx` or `faster-whisper` (optional if used)  
+- FFmpeg (for audio preprocessing)
 
+## 🚀 How to Run
 
+```bash
+#  Clone the repository
+git clone https://github.com/mohammed-Alhusini/whisper-stt-pipeline.git
+cd whisper-stt-pipeline
 
-## UI:
-
-I used Gradio to create the interface for uploading audio, getting transcriptions, and viewing summaries.
-  
-
-## Authors
-
-[mohammed](https://www.github.com/mohammed-Alhusini)
